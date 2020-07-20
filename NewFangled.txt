@@ -1,0 +1,61 @@
+first problems:
+
+a=['food', 'face', 'the', 'donation', 'coalition', 'economy','sector']
+b=[]
+
+for i in a:
+    if i not in b:
+        b.append(i)
+    
+for i in range(0, len(b)):
+    print( b[i], 'is :', a.count(b[i]))
+    
+second problems
+
+Input_array =['impolite',
+'cows', 
+'undress',
+'rule', 
+'illustrious', 
+'beam', 
+'helpless', 
+'gold', 
+'hair', 
+'vacuous',
+'help', 
+'guess', 
+'squalid', 
+'wonderful', 
+'memorise', 
+'present', 
+'painful', 
+'irak', 
+'and', 
+'lip', 
+'rainstorm',
+'talk', 
+'abashed', 
+'box', 
+'partner', 
+'chop', 
+'tenuous', 
+'robin', 
+'trees', 
+'moor', 
+'hunt', 
+'pack', 
+'old-fashioned']
+
+rejected_items=['cows', 'partner', 'wonderful', 'rainstorm', 'pack', 'painful']
+final_list=[]
+for i in Input_array :
+    if i not in rejected_items:
+        final_list.append(i)
+
+print('Input_array ',len(a))   
+print('rejected_items ',len(rejected_items)) 
+print('final_list',final_list)
+
+print('final_list',len(final_list))
+
+
